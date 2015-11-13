@@ -1,11 +1,9 @@
 package com.example;
 
-import java.sql.Time;
 
 public class PluginClass {
     private int PlayCounter = 0;
     private int PauseCounter = 0;
-    private long TimeCounter = 0;
     private long pause = 0;
     private long start = 0;
 
@@ -22,7 +20,6 @@ public class PluginClass {
     }
 
     public long ElapsedTime() {
-        TimeCounter = start - pause;
-        return TimeCounter;
+        return start - pause;
     }
 }
