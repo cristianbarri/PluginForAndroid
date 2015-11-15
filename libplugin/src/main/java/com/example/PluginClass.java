@@ -1,11 +1,16 @@
 package com.example;
 
 
+
 public class PluginClass {
     private int PlayCounter = 0;
     private int PauseCounter = 0;
     private long pause = 0;
     private long start = 0;
+
+    public PluginClass() {
+
+    }
 
     public int CountPlay() {
         PlayCounter++;
