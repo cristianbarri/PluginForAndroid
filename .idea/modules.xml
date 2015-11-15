@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PluginForApp.iml" filepath="$PROJECT_DIR$/PluginForApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libplugin/libplugin.iml" filepath="$PROJECT_DIR$/libplugin/libplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/myplugin/myplugin.iml" filepath="$PROJECT_DIR$/myplugin/myplugin.iml" />
     </modules>
   </component>
